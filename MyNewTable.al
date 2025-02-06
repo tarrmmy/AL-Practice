@@ -7,13 +7,26 @@ table 50106 MyTable
         {
             Caption = 'Code';
         }
-        field(2; Description; Text[10])
+        field(2; Description; Text[30])
         {
             Caption = 'Description';
         }
         field(3; "Item No."; Code[20])
         {
             Caption = 'Item Number';
+            trigger OnValidate()
+            begin
+                if (xRec."Item No." <> '') and (Rec."Item No." = '') then
+                    Error('This field can not be empty!')
+            end;
+
+            trigger OnLookup()
+            var
+                Item: Record Item;
+            begin
+                if Page.RunModal(0, Item) = Action::LookupOK then
+                    Rec."Item No." := "Item No.";
+            end;
         }
         field(4; "Created At"; DateTime)
         {
