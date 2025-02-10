@@ -1,6 +1,6 @@
 page 50106 "My New Page"
 {
-    Caption = 'My New Pages';
+    Caption = 'My New Page';
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
