@@ -17,7 +17,7 @@ table 50106 MyTable
             trigger OnValidate()
             begin
                 if (xRec."Item No." <> '') and (Rec."Item No." = '') then
-                    Error('This field can not be empty!')
+                    Error('This field can not be empty!');
             end;
 
             trigger OnLookup()
