@@ -23,6 +23,4 @@ table 50110 Car
             Clustered = true;
         }
     }
-
-
 }
