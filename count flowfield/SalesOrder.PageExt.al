@@ -16,6 +16,10 @@ pageextension 50100 "Sales Order Ext" extends "Sales Order"
             {
                 ApplicationArea = All;
             }
+            field("Contact Email"; Rec."Contact Email")
+            {
+                ApplicationArea = All;
+            }
         }
     }
 
