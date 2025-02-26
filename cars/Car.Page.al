@@ -24,24 +24,26 @@ page 50110 Cars
                 }
             }
         }
-        area(Factboxes)
-        {
 
-        }
+        // area(Factboxes)
+        // {
+
+        // }
+
     }
 
-    actions
-    {
-        area(Processing)
-        {
-            action(ActionName)
-            {
+    // actions
+    // {
+    //     area(Processing)
+    //     {
+    //         action(ActionName)
+    //         {
 
-                trigger OnAction()
-                begin
+    //             trigger OnAction()
+    //             begin
 
-                end;
-            }
-        }
-    }
+    //             end;
+    //         }
+    //     }
+    // }
 }
