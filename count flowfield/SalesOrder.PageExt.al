@@ -23,4 +23,10 @@ pageextension 50100 "Sales Order Ext" extends "Sales Order"
         }
     }
 
+    // trigger OnOpenPage()
+    // begin
+    //     Rec.CalcFields("No of SO Lines");
+    //     Message(Rec.FieldName("No of SO Lines") + ' ' + Format(Rec."No of SO Lines"));
+    // end;
+
 }
