@@ -4,7 +4,6 @@ pageextension 50117 MyExtension extends "Item Card"
     {
         // Add changes to page layout here
     }
-
     actions
     {
         addafter(CalculateCountingPeriod)
