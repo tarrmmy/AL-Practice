@@ -1,4 +1,4 @@
-page 50110 Cars
+page 50210 Cars
 {
     PageType = List;
     ApplicationArea = All;
@@ -24,26 +24,5 @@ page 50110 Cars
                 }
             }
         }
-
-        // area(Factboxes)
-        // {
-
-        // }
-
     }
-
-    // actions
-    // {
-    //     area(Processing)
-    //     {
-    //         action(ActionName)
-    //         {
-
-    //             trigger OnAction()
-    //             begin
-
-    //             end;
-    //         }
-    //     }
-    // }
 }

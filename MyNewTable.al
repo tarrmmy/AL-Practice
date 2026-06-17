@@ -1,4 +1,4 @@
-table 50106 MyTable
+table 50206 MyTable
 {
 
     fields

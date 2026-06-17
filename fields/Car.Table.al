@@ -1,4 +1,4 @@
-table 50110 Car
+table 50210 Car
 {
     DataClassification = ToBeClassified;
     Caption = 'Car';

@@ -1,4 +1,4 @@
-table 50115 Bike
+table 50215 Bike
 {
     Caption = 'Bike';
     DataClassification = ToBeClassified;

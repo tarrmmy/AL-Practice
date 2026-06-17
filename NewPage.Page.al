@@ -1,4 +1,4 @@
-page 50106 "My New Page"
+page 50206 "My New Page"
 {
     Caption = 'My New Page';
     PageType = List;
