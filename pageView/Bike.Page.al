@@ -1,4 +1,4 @@
-page 50115 PageName
+page 50215 PageName
 {
     Caption = 'Bikes';
     PageType = List;
@@ -34,21 +34,6 @@ page 50115 PageName
 
         }
     }
-
-    // actions
-    // {
-    //     area(Processing)
-    //     {
-    //         action(ActionName)
-    //         {
-
-    //             trigger OnAction()
-    //             begin
-
-    //             end;
-    //         }
-    //     }
-    // }
 
     views
     {

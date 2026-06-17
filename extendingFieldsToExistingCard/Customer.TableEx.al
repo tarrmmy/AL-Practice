@@ -1,4 +1,4 @@
-tableextension 50112 CustomerExt extends Customer
+tableextension 50212 CustomerExt extends Customer
 {
     fields
     {

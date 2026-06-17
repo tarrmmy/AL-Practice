@@ -1,15 +1,14 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
         {
             "name": "Your own server",
             "request": "launch",
             "type": "al",
             "environmentType": "OnPrem",
-            "server": "http://bcserver/",
-            "serverInstance": "BC",
-            "authentication": "UserPassword",
+            "server": "http://localhost:8080/BC252",
+            "serverInstance": "BC252",
+            "authentication": "Windows",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": "All",
@@ -17,7 +16,7 @@
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
             "tenant": "default",
-            "usePublicURLFromServer": true
+            "usePublicURLFromServer": false,
         }
     ]
 }
