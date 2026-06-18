@@ -1,9 +1,9 @@
 page 50230 "Student Registration"
 {
     Caption = 'Student Registration';
-    PageType = Card;
+    PageType = List;
     ApplicationArea = All;
-    UsageCategory = Administration;
+    UsageCategory = Lists;
     SourceTable = "StudentRegistration";
 
     layout
