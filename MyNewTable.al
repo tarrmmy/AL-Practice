@@ -63,7 +63,7 @@ table 50206 MyTable
 
     trigger OnRename()
     begin
-        Message('The record %1 was renamed.', xRec.Code, Rec.Code);
+        Message('Record was renamed. Old key is: %1, the new key is: %2', xRec.Code, Rec.Code);
     end;
 
 }
