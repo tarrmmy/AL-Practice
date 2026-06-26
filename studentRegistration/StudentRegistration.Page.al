@@ -28,4 +28,24 @@ page 50230 "Student Registration"
         }
 
     }
+
+    actions
+    {
+        area(Processing)
+        {
+            action(MarkAsCompleted)
+            {
+                Caption = 'Mark As Completed';
+                ApplicationArea = All;
+                ToolTip = 'Marks when an action is completed';
+
+                trigger OnAction();
+                begin
+                    Rec."Registration Date" := WorkDate();
+                    Rec.Completed := true;
+                    Rec.Modify();
+                end;
+            }
+        }
+    }
 }
