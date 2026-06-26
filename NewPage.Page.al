@@ -1,6 +1,6 @@
-page 50206 "My New Page"
+page 50206 "New Action Page"
 {
-    Caption = 'My New Page';
+    Caption = 'New Action Page';
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
